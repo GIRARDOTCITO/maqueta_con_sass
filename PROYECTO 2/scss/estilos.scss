@@ -1,0 +1,59 @@
+
+@import "../libs/bootstrap/scss/bootstrap.scss";
+@import "otros/variables";
+@import "otros/mixins.scss";
+
+@include media-breakpoint-up(xs) { 
+    .color4, .color2 {
+      background-color: $color-contenido-xs;
+    }
+    .color3{
+     
+        background-color: aqua;
+    }
+    .color1{
+        background-color: coral;
+    }
+    .color5{
+        background-color: gold;
+    }
+ }
+@include media-breakpoint-up(sm) {
+    .color2, .color3{
+        height: 100px;
+        background-color: $color-contenido-sm;
+    }
+    .color1{
+        background-color: aqua;
+        
+    }
+    .color4{
+        height: 100px;
+        background-color: forestgreen;
+    }
+    .color5{
+        background-color: gold;
+    }
+} 
+
+@include media-breakpoint-up(md) { 
+    .color4, .color2, .color3 {
+        height: 200px;
+      background-color: $color-contenido-md;
+    }
+    
+    .color1{
+        background-color: forestgreen;
+    }
+    .color5{
+        background-color: gold;
+    }
+}
+p{
+    color:black;
+    text-align: center;
+}
+h1{
+    color: #ffff;
+    text-align: center;
+}
