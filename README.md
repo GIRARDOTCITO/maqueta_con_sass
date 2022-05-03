@@ -15,3 +15,15 @@ MAQUETA 3:
 ![image](https://user-images.githubusercontent.com/101753244/166516605-76302aab-31d8-4ef7-922a-49bda8f470ae.png)
 ![image](https://user-images.githubusercontent.com/101753244/166516631-75277c22-a10e-4900-b14f-e4bcf29919d0.png)
 MAQUETA 4:
+![image](https://user-images.githubusercontent.com/101753244/166519556-abdabb23-7a94-48e6-af98-3a3a95a0983e.png)
+![image](https://user-images.githubusercontent.com/101753244/166519574-6ad3d1da-87f5-4ec7-98a8-bd75235fa5a0.png)
+![image](https://user-images.githubusercontent.com/101753244/166519588-2a2d06ca-b263-4b70-b2d3-667f9758d10d.png)
+MAQUETA 5 :
+![image](https://user-images.githubusercontent.com/101753244/166519650-b150a60e-f7de-4a22-ba90-a67ef12b6e6b.png)
+![image](https://user-images.githubusercontent.com/101753244/166519667-171f2466-3804-4406-88fd-68afa53593d8.png)
+![image](https://user-images.githubusercontent.com/101753244/166519686-9eeea44c-123c-4cf8-a836-8948757b327a.png)
+![image](https://user-images.githubusercontent.com/101753244/166519700-d1426524-3fc3-475a-a021-baee64262e08.png)
+MAQUETA 6:
+![image](https://user-images.githubusercontent.com/101753244/166519778-68b02e15-e432-4e07-8cdc-d4524dceb9bd.png)
+![image](https://user-images.githubusercontent.com/101753244/166519814-a927a290-9018-423f-aaff-94804a2beda1.png)
+![image](https://user-images.githubusercontent.com/101753244/166519851-1bd178fa-1329-48e7-9712-13ddc82de987.png)
