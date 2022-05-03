@@ -1,1 +1,123 @@
+/*Centro De Biotecnologia Agropecuaria
+    Analisis y Desarrollo de Software
+    Ficha: 2470980
+    Autor: Juan Sebastián Girardot Antonio 
+    Fecha de creación: 26/Abril/2022*/  
 @import "../libs/bootstrap/scss/bootstrap.scss";
+@import "otros/variables";
+@import "otros/mixins.scss";
+
+@include media-breakpoint-up(xs){
+    .colorheader{
+        background-color:rgb(255, 251, 0);
+    }
+    .asidecolor{
+        background-color:chartreuse;
+    }
+    .navcolor{
+        background-color:darkblue;
+    }
+    .sectioncolor1{
+        background-color:darkmagenta;
+    }
+    .sectioncolor2{
+        background-color:deeppink;
+    }
+    .color1, .color2, .color3, .color4, .color5, .color6, .color7, .color8, .color9, .color10{
+        background-color:rgb(255, 0, 0);
+    }
+    .footercolor{
+        background-color:tomato;
+    }
+    .texto{
+        color:black;
+    }
+}
+@include media-breakpoint-up(sm){
+    .colorheader{
+        background-color: rgb(231, 210, 22);
+    }
+    .asidecolor{
+        background-color: rgb(80, 106, 255);
+    }
+    .navcolor{
+        background-color: crimson;
+    }
+    .sectioncolor1{
+        background-color: rgb(143, 237, 100);
+    }
+    .sectioncolor2{
+        background-color: rgb(237, 100, 207);
+    }
+    .color1, .color2, .color3, .color4, .color5, .color6, .color7, .color8, .color9, .color10{
+        background-color:rgb(0, 247, 255);
+    }
+    .footercolor{
+        background-color:rgb(235, 220, 20);
+    }
+    .texto{
+        color:black;
+    }
+}
+
+@include media-breakpoint-up(md){
+    .colorheader{
+        background-color: rgb(255, 124, 16);
+    }
+    .asidecolor{
+        background-color: rgb(121, 255, 80);
+    }
+    .navcolor{
+        background-color: rgb(33, 20, 220);
+    }
+    .sectioncolor1{
+        background-color: rgb(237, 194, 100);
+    }
+    .sectioncolor2{
+        background-color: rgb(237, 228, 100);
+    }
+    .color1, .color2, .color3, .color4, .color5, .color6, .color7, .color8, .color9, .color10{
+        background-color:rgb(0, 140, 255);
+    }
+    .footercolor{
+        background-color:rgb(253, 146, 6);
+    }
+    .texto{
+        color:black;
+    } 
+}
+
+
+
+
+
+
+@include media-breakpoint-up(lg){
+
+
+.colorheader{
+    background-color: darkgreen;
+}
+.asidecolor{
+    background-color: coral;
+}
+.navcolor{
+    background-color: crimson;
+}
+.sectioncolor1{
+    background-color: cornflowerblue;
+}
+.sectioncolor2{
+    background-color: cornflowerblue;
+}
+.color1, .color2, .color3, .color4, .color5, .color6, .color7, .color8, .color9, .color10{
+    background-color:yellow;
+}
+.footercolor{
+    background-color:darkgreen;
+}
+.texto{
+    color:black;
+}
+}
+/*Como podemos observar, cada color de cada caja, tiene sus diferentes estilos. Podemos observar que por cada tamaño hay diferentes colores.*/

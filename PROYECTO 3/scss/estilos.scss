@@ -1,4 +1,140 @@
+/*Centro De Biotecnologia Agropecuaria
+    Analisis y Desarrollo de Software
+    Ficha: 2470980
+    Autor: Juan Sebastián Girardot Antonio 
+    Fecha de creación: 26/Abril/2022*/
 @import "../libs/bootstrap/scss/bootstrap.scss";
+@import "otros/variables";
+@import "otros/mixins.scss";
+
+@include media-breakpoint-up (xs){
+    #header{
+        background-color:$color-contenido-xs ;
+        border: 0; color:black;
+        height: 100px;
+        text-align: center;
+    }
+    #articulo1{
+        @include contenido-largo(2);
+        background-color: rgb(214, 226, 43);
+        border:0;color:black;
+        
+        text-align: center;
+    }
+    #articulo4{
+        background-color: rgb(140, 0, 255);
+        border: 2px; color: black;
+        float: right;
+        text-align: center;
+    
+    }
+    #articulo2{
+        background-color: rgb(100, 37, 0);
+        border: 0 ; color:black;
+        height: 100px;
+        text-align: center;
+    }
+    
+    #articulo3{
+        background-color: rgb(80, 255, 109);
+        border: 0; color: black;
+        height: 100px;
+        text-align: center;
+    }
+    
+    #footer{
+        background-color: rgb(0, 63, 16);
+        border: 0; color: black;
+        height: 100px;
+        text-align: center;
+    }
+}
+@include media-breakpoint-up(sm) {
+    #header{
+        background-color:$color-contenido-sm ;
+        border: 0; color:black;
+        height: 100px;
+        text-align: center;
+    }
+    #articulo1{
+        @include contenido-largo(2);
+        background-color: rgb(110, 226, 43);
+        border:0;color:black;
+        
+        text-align: center;
+    }
+    #articulo4{
+        background-color: rgb(255, 145, 0);
+        border: 2px; color: black;
+        float: right;
+        text-align: center;
+    
+    }
+    #articulo2{
+        background-color: rgb(0, 100, 95);
+        border: 0 ; color:black;
+        height: 100px;
+        text-align: center;
+    }
+    
+    #articulo3{
+        background-color: rgb(255, 80, 255);
+        border: 0; color: black;
+        height: 100px;
+        text-align: center;
+    }
+    
+    #footer{
+        background-color: rgb(237, 100, 100);
+        border: 0; color: black;
+        height: 100px;
+        text-align: center;
+    }
+}
+@include media-breakpoint-up(md) {
+    #header{
+        background-color:$color-contenido-md ;
+        border: 0; color:black;
+        
+        text-align: center;
+    }
+    #articulo1{
+        @include contenido-largo(2);
+        background-color: rgb(43, 205, 226);
+        border:0;color:black;
+        
+        text-align: center;
+    }
+    #articulo4{
+        background-color: chartreuse;
+        border: 2px; color: black;
+        float: right;
+        text-align: center;
+    
+    }
+    #articulo2{
+        background-color: rgb(100, 0, 100);
+        border: 0 ; color:black;
+        height: 100px;
+        text-align: center;
+    }
+    
+    #articulo3{
+        background-color: rgb(238, 255, 80);
+        border: 0; color: black;
+        height: 100px;
+        text-align: center;
+    }
+    
+    #footer{
+        background-color: rgb(240, 0, 0);
+        border: 0; color: black;
+        height: 100px;
+        text-align: center;
+    }
+}
+
+@include media-breakpoint-up(lg) {
 #header{
     background-color: burlywood;
     border: 0; color:black;
@@ -6,9 +142,11 @@
     text-align: center;
 }
 #articulo1{
+    
     background-color: blueviolet;
+    height: 100px;
     border:0;color:black;
-    height: 320px;
+    
     text-align: center;
 }
 #articulo4{
@@ -21,20 +159,24 @@
 #articulo2{
     background-color: darkgreen;
     border: 0 ; color:black;
-    height: 100px;
+    
     text-align: center;
 }
 
 #articulo3{
     background-color: coral;
     border: 0; color: black;
-    height: 100px;
+    
     text-align: center;
 }
 
 #footer{
     background-color: cornflowerblue;
     border: 0; color: black;
-    height: 100px;
+    
     text-align: center;
 }
+}
+
+
+/*En esta parte damos color a cada una de las cajas contenedoras, en el html*/

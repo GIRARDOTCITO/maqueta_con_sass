@@ -1,15 +1,64 @@
+/*Centro De Biotecnologia Agropecuaria
+    Analisis y Desarrollo de Software
+    Ficha: 2470980
+    Autor: Juan Sebastián Girardot Antonio 
+    Fecha de creación: 26/Abril/2022*/
 @import "../libs/bootstrap/scss/bootstrap.scss";
-.color1{
-    background-color: rgb(226, 168, 43);
+@import "otros/variables";
+@import "otros/mixins.scss";
+
+
+
+@include media-breakpoint-up(sm) {
+    .color1{
+        @include contenido-largo(1);
+        background-color: $color-contenido-xs;
+    }
+    .color2{
+        @include contenido-largo(1);
+        background-color: cadetblue;
+
+    }
+    .color3{
+        @include contenido-largo(1);
+        background-color: darkgray;
+    }
 }
-.color2{
-    background-color: rgba(4, 0, 255, 0.658);
+@include media-breakpoint-up(md) {
+    .color1{
+        @include contenido-largo(2);
+        background-color: $color-contenido-sm;
+    }
+    .color2{
+        @include contenido-largo(2);
+        background-color: rgb(0, 0, 0);
+
+    }
+    .color3{
+        @include contenido-largo(2);
+        background-color: rgb(184, 24, 24);
+    }
 }
-.color3{
-    background-color: rgb(223, 32, 105);
+@include media-breakpoint-up(lg) {
+    .color1{
+    @include contenido-largo (3);
+    background-color: $color-contenido-lg
+    }
+    .color2{
+        @include contenido-largo (3);
+        background-color: darkblue;
+    }
+        .color3{
+            @include contenido-largo (3);
+            background-color: darksalmon;
+        }
+    
 }
+
+
 
 p{
     color: rgb(255, 255, 255);
     text-align: center;
 }
+/*Ponemos en esta parte un "include", para incluir las variables de los archivos creados, tambien importamos la librerias de scss, y damos color a cada tamaño de la maqueta con color blanco de la letra*/

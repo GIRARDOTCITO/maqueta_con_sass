@@ -1,3 +1,9 @@
+@charset "UTF-8";
+/*Centro De Biotecnologia Agropecuaria
+    Analisis y Desarrollo de Software
+    Ficha: 2470980
+    Autor: Juan Sebastián Girardot Antonio 
+    Fecha de creación: 26/Abril/2022*/
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11957,8 +11963,20 @@ fieldset:disabled .btn {
   }
 }
 
+/*Centro De Biotecnologia Agropecuaria
+    Analisis y Desarrollo de Software
+    Ficha: 2470980
+    Autor: Juan Sebastián Girardot Antonio 
+    Fecha de creación: 26/Abril/2022*/
+/*En esta parte damos variables las cuales tienen como nombre "color-contenido-sm,md,lg, xl, etc. Tambien inicializamos la variable "$largo" en 50px.*/
+/*Centro De Biotecnologia Agropecuaria
+    Analisis y Desarrollo de Software
+    Ficha: 2470980
+    Autor: Juan Sebastián Girardot Antonio 
+    Fecha de creación: 26/Abril/2022*/
+/*Aca en el mixin, le decimos a la variable largo, que el valor dado lo multiplique con un height y por el valor dado al digitar y inicializamos largo con 50px */
 #header {
-  background-color: burlywood;
+  background-color: red;
   border: 0;
   color: black;
   height: 100px;
@@ -11966,15 +11984,15 @@ fieldset:disabled .btn {
 }
 
 #articulo1 {
-  background-color: blueviolet;
+  height: 100px;
+  background-color: #d6e22b;
   border: 0;
   color: black;
-  height: 320px;
   text-align: center;
 }
 
 #articulo4 {
-  background-color: chartreuse;
+  background-color: #8c00ff;
   border: 2px;
   color: black;
   float: right;
@@ -11982,7 +12000,7 @@ fieldset:disabled .btn {
 }
 
 #articulo2 {
-  background-color: darkgreen;
+  background-color: #642500;
   border: 0;
   color: black;
   height: 100px;
@@ -11990,7 +12008,7 @@ fieldset:disabled .btn {
 }
 
 #articulo3 {
-  background-color: coral;
+  background-color: #50ff6d;
   border: 0;
   color: black;
   height: 100px;
@@ -11998,10 +12016,143 @@ fieldset:disabled .btn {
 }
 
 #footer {
-  background-color: cornflowerblue;
+  background-color: #003f10;
   border: 0;
   color: black;
   height: 100px;
   text-align: center;
 }
+
+@media (min-width: 576px) {
+  #header {
+    background-color: #f06000;
+    border: 0;
+    color: black;
+    height: 100px;
+    text-align: center;
+  }
+  #articulo1 {
+    height: 100px;
+    background-color: #6ee22b;
+    border: 0;
+    color: black;
+    text-align: center;
+  }
+  #articulo4 {
+    background-color: #ff9100;
+    border: 2px;
+    color: black;
+    float: right;
+    text-align: center;
+  }
+  #articulo2 {
+    background-color: #00645f;
+    border: 0;
+    color: black;
+    height: 100px;
+    text-align: center;
+  }
+  #articulo3 {
+    background-color: #ff50ff;
+    border: 0;
+    color: black;
+    height: 100px;
+    text-align: center;
+  }
+  #footer {
+    background-color: #ed6464;
+    border: 0;
+    color: black;
+    height: 100px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  #header {
+    background-color: #0307ff;
+    border: 0;
+    color: black;
+    text-align: center;
+  }
+  #articulo1 {
+    height: 100px;
+    background-color: #2bcde2;
+    border: 0;
+    color: black;
+    text-align: center;
+  }
+  #articulo4 {
+    background-color: chartreuse;
+    border: 2px;
+    color: black;
+    float: right;
+    text-align: center;
+  }
+  #articulo2 {
+    background-color: #640064;
+    border: 0;
+    color: black;
+    height: 100px;
+    text-align: center;
+  }
+  #articulo3 {
+    background-color: #eeff50;
+    border: 0;
+    color: black;
+    height: 100px;
+    text-align: center;
+  }
+  #footer {
+    background-color: #f00000;
+    border: 0;
+    color: black;
+    height: 100px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  #header {
+    background-color: burlywood;
+    border: 0;
+    color: black;
+    height: 100px;
+    text-align: center;
+  }
+  #articulo1 {
+    background-color: blueviolet;
+    height: 100px;
+    border: 0;
+    color: black;
+    text-align: center;
+  }
+  #articulo4 {
+    background-color: chartreuse;
+    border: 2px;
+    color: black;
+    float: right;
+    text-align: center;
+  }
+  #articulo2 {
+    background-color: darkgreen;
+    border: 0;
+    color: black;
+    text-align: center;
+  }
+  #articulo3 {
+    background-color: coral;
+    border: 0;
+    color: black;
+    text-align: center;
+  }
+  #footer {
+    background-color: cornflowerblue;
+    border: 0;
+    color: black;
+    text-align: center;
+  }
+}
+
+/*En esta parte damos color a cada una de las cajas contenedoras, en el html*/
 /*# sourceMappingURL=estilos.css.map */

@@ -1,4 +1,12 @@
+/*Centro De Biotecnologia Agropecuaria
+    Analisis y Desarrollo de Software
+    Ficha: 2470980
+    Autor: Juan Sebastián Girardot Antonio 
+    Fecha de creación: 26/Abril/2022*/
 @import "../libs/bootstrap/scss/bootstrap.scss";
+@import "otros/variables";
+@import "otros/mixins.scss";
+
 
 body{
     background-image: url("../img/fondo\ pagina.jpg");
@@ -23,3 +31,4 @@ body{
 .margen{
     margin: 3px;
 }
+/*En este archivo sass, le damos formato a nuestra pagina web, dandole margin y alineacion a cada texto*/

@@ -1,17 +1,87 @@
+/*Centro De Biotecnologia Agropecuaria
+    Analisis y Desarrollo de Software
+    Ficha: 2470980
+    Autor: Juan Sebastián Girardot Antonio 
+    Fecha de creación: 26/Abril/2022*/
 @import "../libs/bootstrap/scss/bootstrap.scss";
+@import "otros/variables";
+@import "otros/mixins.scss";
 
-.cols1{
-    background-color: blueviolet;
+@include media-breakpoint-up(sm) {
+    .cols1{
+        @include contenido-largo(1);
+        background-color: $color-contenido-sm;
+    }
+    .cols2{
+        @include contenido-largo(1);
+        background-color: chocolate;
+    }
+    .cols3{
+        @include contenido-largo(1);
+        background-color: rgb(255, 238, 0);
+    }
+    .cols4{
+        @include contenido-largo(1);
+        background-color:crimson;
+    }
 }
-.cols2{
-    background-color: chartreuse;
+@include media-breakpoint-up(md) {
+    .cols1{
+        @include contenido-largo(2);
+        background-color: $color-contenido-md;
+    }
+    .cols2{
+        @include contenido-largo(2);
+        background-color: rgb(159, 30, 210);
+    }
+    .cols3{
+        @include contenido-largo(2);
+        background-color: rgb(255, 0, 34);
+    }
+    .cols4{
+        @include contenido-largo(2);
+        background-color:rgb(236, 126, 0);
+    }
 }
-.cols3{
-    background-color: cornflowerblue;
+@include media-breakpoint-up(lg) {
+    .cols1{
+        @include contenido-largo(3);
+        background-color: $color-contenido-lg;
+    }
+    .cols2{
+        @include contenido-largo(3);
+        background-color: rgb(184, 241, 25);
+    }
+    .cols3{
+        @include contenido-largo(3);
+        background-color: rgb(255, 72, 0);
+    }
+    .cols4{
+        @include contenido-largo(3);
+        background-color:rgb(20, 40, 220);
+    }
 }
-.cols4{
-    background-color: darkorange;
+@include media-breakpoint-up(xl) {
+    .cols1{
+        @include contenido-largo(3);
+        background-color: $color-contenido-xl;
+    }
+    .cols2{
+        @include contenido-largo(3);
+        background-color: rgb(25, 216, 241);
+    }
+    .cols3{
+        @include contenido-largo(3);
+        background-color: rgb(255, 0, 191);
+    }
+    .cols4{
+        @include contenido-largo(3);
+        background-color:rgb(45, 194, 0);
+    }
 }
+
+
 h1{
     color: rgb(255, 255, 255);
 }
+/*En este documento damos xl, lg, md, sm, para cada tamaño, y damos un color en especial para que cambie cuando su tamaño se reduzca con variables todo es posible.*/

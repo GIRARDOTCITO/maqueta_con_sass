@@ -1,54 +1,69 @@
-
+/*Centro De Biotecnologia Agropecuaria
+    Analisis y Desarrollo de Software
+    Ficha: 2470980
+    Autor: Juan Sebastián Girardot Antonio 
+    Fecha de creación: 26/Abril/2022*/
 @import "../libs/bootstrap/scss/bootstrap.scss";
 @import "otros/variables";
 @import "otros/mixins.scss";
 
-@include media-breakpoint-up(xs) { 
+
+@include media-breakpoint-up(sm) { 
     .color4, .color2 {
-      background-color: $color-contenido-xs;
+      background-color: $color-contenido-sm;
+      @include contenido-largo(1);
     }
+    
     .color3{
      
         background-color: aqua;
+        @include contenido-largo(1);
     }
     .color1{
         background-color: coral;
+        
     }
     .color5{
         background-color: gold;
+        
     }
  }
-@include media-breakpoint-up(sm) {
+@include media-breakpoint-up(md) {
     .color2, .color3{
-        height: 100px;
+        @include contenido-largo(2);
         background-color: $color-contenido-sm;
     }
     .color1{
+        
         background-color: aqua;
         
     }
     .color4{
-        height: 100px;
+        @include contenido-largo(2);
         background-color: forestgreen;
     }
     .color5{
+        
         background-color: gold;
     }
 } 
 
-@include media-breakpoint-up(md) { 
+@include media-breakpoint-up(lg) { 
     .color4, .color2, .color3 {
-        height: 200px;
-      background-color: $color-contenido-md;
+         @include contenido-largo(3);
+      background-color: $color-contenido-lg;
     }
     
     .color1{
+        
         background-color: forestgreen;
     }
     .color5{
+        
         background-color: gold;
     }
 }
+
 p{
     color:black;
     text-align: center;
@@ -57,3 +72,4 @@ h1{
     color: #ffff;
     text-align: center;
 }
+/*Damos colores a cada tamaño, y a la letra, una blanca y otra negra, damos a los tamaño lg, md y sm, colores para que cada que cambie su tamaño damos su estatus, e importamos librerias, mixins y variables.*/

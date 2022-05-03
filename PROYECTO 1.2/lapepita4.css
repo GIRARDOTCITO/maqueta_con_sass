@@ -1,0 +1,77 @@
+/*Centro de biotecnologia Agropecuario
+Análisis y Desarrollo de Software 
+Ficha: 2470980
+Autor: Juan Sebastian Girardot Antonio
+Fecha de creación: 16 de febrero 2022
+Fecha de actualización: 06 marzo 2022 */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    width: 700px;
+    height:   0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    background-color: rgb(58, 140, 212);
+    text-align: center;
+    padding: 10px;
+    
+}
+nav{
+    background-color: chartreuse;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+#perringuis{
+    background-color: brown;
+    float: right;
+    text-align: center;
+    font-weight: bold;
+    line-height: 400px;
+    
+    
+}
+
+section{
+    float: right;
+    background-color: bisque;
+    text-align: center;
+    flex:30%;
+    font-weight: bold;
+    line-height: 400px;
+    font-size: 20px;
+    
+}
+#takitaki{
+    background-color: #3f4d5c;
+    float: left;
+    font-weight: bold;
+    font-size: 12px ;
+    padding: 1px;
+    
+    
+}
+footer{
+    background-color: blue;
+    text-align: center;
+    padding: 0px;
+    font-size: 100%;
+}
+/* width:La propiedad width no admite valores negativos y los valores en porcentaje se calculan a partir de la anchura de su elemento padre. El valor inherit indica que la anchura del elemento se hereda de su elemento padre.
+height:La propiedad CSS height especifica la altura del area de contenido de un elemento. El área de contenido está dentro del padding, borde, y margen del elemento. Las propiedades min-height y max-height sobreescriben el valor de height .
+float:La propiedad float de CSS es la que permite que los elementos floten sobre el lado que se indica, mientras que el resto de los elementos que no tienen la propiedad float definida se encuentran alrededor. De acuerdo a las normas de CSS2, los elementos flotantes pueden tener tres valores: left, right y none.
+padding: La propiedad CSS padding establece el espacio de relleno requerido por todos los lados de un elemento. El área de padding es el espacio entre el contenido del elemento y su borde ( border ). No se permiten valores negativos.
+font-size:La propiedad font-size especifica la dimensión de la letra. Este tamaño puede, a su vez, alterar el aspecto de alguna otra cosa, ya que se usa para calcular la longitud de las unidades em y ex . all elements
+font-family:La propiedad font-family define una lista de fuentes o familias de fuentes, con un orden de prioridad, para utilizar en un elemento seleccionado. A diferencia de la mayoría de las propiedades CSS, los valores se separan con comas (",") para indicar que son valores alternativo
+display block:Un elemento block siempre tiene algo de espacio por encima y debajo, que lo separa de los demás elementos, y no acepta ningún otro elemento a su lado - si no está indicado de otra manera ( float ).
+display flex: La propiedad CSS flex es una propiedad resumida que indica la capacidad de un elemento flexible para alterar sus dimensiones y llenar el espacio disponible.
+margin: La propiedad CSS margin establece el margen para los cuatro lados. Es una abreviación para evitar tener que establecer cada lado por separado con las otras propiedades de margen: margin-top (en-US), margin-right , margin-bottom y margin-left (en-US). También se permiten valores negativos.*/

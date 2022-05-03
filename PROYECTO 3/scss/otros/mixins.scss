@@ -3,6 +3,9 @@
     Ficha: 2470980
     Autor: Juan Sebastián Girardot Antonio 
     Fecha de creación: 26/Abril/2022*/
+
+
+    
 @mixin contenido-largo($valor) {
     height: $largo*$valor;
 }
